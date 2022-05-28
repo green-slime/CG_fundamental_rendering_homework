@@ -1,0 +1,27 @@
+{
+    "editor.formatOnType": true, 
+    "editor.snippetSuggestions": "top",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+      "c": "cd $dir && clang $fileName -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw -std=c11 && $dir$fileNameWithoutExt",
+      "cpp": "cd $dir && clang++ $fileName -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw -lglut32 -lglu32 -lopengl32 -std=c++17 && $dir$fileNameWithoutExt"
+    }, 
+    "code-runner.saveFileBeforeRun": true, 
+    "code-runner.preserveFocus": true, 
+    "code-runner.clearPreviousOutput": false, 
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.intelliSenseEngine": "Default", 
+    "C_Cpp.errorSquiggles": "Disabled", 
+    "C_Cpp.autocomplete": "Disabled",
+    "clang.cflags": [
+      "-I${workspaceRoot}"
+    ],
+    "files.associations": {
+      "utility": "cpp",
+      "cmath": "cpp",
+      "vector": "cpp",
+      "cstdlib": "cpp",
+      "raytracing_stats.C": "cpp"
+    }
+  }
+  

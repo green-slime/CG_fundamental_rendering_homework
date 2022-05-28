@@ -1,0 +1,2 @@
+-input fern.txt -points 10000 -iters 10 -size 100 -output fern.tga
+-input sierpinski_triangle.txt -points 10000 -iters 15 -size 100 -output sierpinski_triangle.tga
